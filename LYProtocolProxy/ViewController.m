@@ -30,7 +30,7 @@
     [aniHouseProxy pushers];
     [aniHouseProxy shovel];
     
-    LYDispatchProxy <LYAnimal, LYPerson> *dispathProx = (LYDispatchProxy <LYAnimal, LYPerson> *)ly_dispatchProxy([LYAnimal new], [LYPerson new], nil);
+    id dispathProx = ly_dispatchProxy([LYAnimal new], [LYPerson new], nil);
     [dispathProx talk];
     [dispathProx walk];
     [dispathProx pushers];
