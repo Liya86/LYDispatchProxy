@@ -14,6 +14,12 @@
 		6A234565211D209C0000B761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A234563211D209C0000B761 /* LaunchScreen.storyboard */; };
 		6A234568211D209C0000B761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234567211D209C0000B761 /* main.m */; };
 		6A234572211D209C0000B761 /* LYProtocolProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234571211D209C0000B761 /* LYProtocolProxyTests.m */; };
+		6A23457F211D21240000B761 /* LYDispatchProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A23457E211D21240000B761 /* LYDispatchProxy.m */; };
+		6A234585211D5D710000B761 /* LYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234584211D5D710000B761 /* LYPerson.m */; };
+		6A234588211D5D920000B761 /* LYAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234587211D5D920000B761 /* LYAnimal.m */; };
+		6A23458B211D66D60000B761 /* LYTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A23458A211D66D60000B761 /* LYTableDelegate.m */; };
+		6A23458E211D692E0000B761 /* LYAnimalHouseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A23458D211D692E0000B761 /* LYAnimalHouseProxy.m */; };
+		6A234597211D894A0000B761 /* LYWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234596211D894A0000B761 /* LYWeakObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A234555211D209C0000B761 /* LYProtocolProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYProtocolProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A234555211D209C0000B761 /* LYDispatchProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYDispatchProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A234558211D209C0000B761 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A234559211D209C0000B761 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6A23455B211D209C0000B761 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -37,9 +43,21 @@
 		6A234564211D209C0000B761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A234566211D209C0000B761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A234567211D209C0000B761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6A23456D211D209C0000B761 /* LYProtocolProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYProtocolProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A23456D211D209C0000B761 /* LYDispatchProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYDispatchProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A234571211D209C0000B761 /* LYProtocolProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYProtocolProxyTests.m; sourceTree = "<group>"; };
 		6A234573211D209C0000B761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A23457D211D21240000B761 /* LYDispatchProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDispatchProxy.h; sourceTree = "<group>"; };
+		6A23457E211D21240000B761 /* LYDispatchProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDispatchProxy.m; sourceTree = "<group>"; };
+		6A234583211D5D710000B761 /* LYPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPerson.h; sourceTree = "<group>"; };
+		6A234584211D5D710000B761 /* LYPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPerson.m; sourceTree = "<group>"; };
+		6A234586211D5D920000B761 /* LYAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAnimal.h; sourceTree = "<group>"; };
+		6A234587211D5D920000B761 /* LYAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAnimal.m; sourceTree = "<group>"; };
+		6A234589211D66D60000B761 /* LYTableDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTableDelegate.h; sourceTree = "<group>"; };
+		6A23458A211D66D60000B761 /* LYTableDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTableDelegate.m; sourceTree = "<group>"; };
+		6A23458C211D692E0000B761 /* LYAnimalHouseProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAnimalHouseProxy.h; sourceTree = "<group>"; };
+		6A23458D211D692E0000B761 /* LYAnimalHouseProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAnimalHouseProxy.m; sourceTree = "<group>"; };
+		6A234595211D894A0000B761 /* LYWeakObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWeakObject.h; sourceTree = "<group>"; };
+		6A234596211D894A0000B761 /* LYWeakObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWeakObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,7 @@
 		6A23454C211D209C0000B761 = {
 			isa = PBXGroup;
 			children = (
+				6A23457C211D20A40000B761 /* Source */,
 				6A234557211D209C0000B761 /* LYProtocolProxy */,
 				6A234570211D209C0000B761 /* LYProtocolProxyTests */,
 				6A234556211D209C0000B761 /* Products */,
@@ -72,8 +91,8 @@
 		6A234556211D209C0000B761 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A234555211D209C0000B761 /* LYProtocolProxy.app */,
-				6A23456D211D209C0000B761 /* LYProtocolProxyTests.xctest */,
+				6A234555211D209C0000B761 /* LYDispatchProxy.app */,
+				6A23456D211D209C0000B761 /* LYDispatchProxyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +104,14 @@
 				6A234559211D209C0000B761 /* AppDelegate.m */,
 				6A23455B211D209C0000B761 /* ViewController.h */,
 				6A23455C211D209C0000B761 /* ViewController.m */,
+				6A234589211D66D60000B761 /* LYTableDelegate.h */,
+				6A23458A211D66D60000B761 /* LYTableDelegate.m */,
+				6A234583211D5D710000B761 /* LYPerson.h */,
+				6A234584211D5D710000B761 /* LYPerson.m */,
+				6A234586211D5D920000B761 /* LYAnimal.h */,
+				6A234587211D5D920000B761 /* LYAnimal.m */,
+				6A23458C211D692E0000B761 /* LYAnimalHouseProxy.h */,
+				6A23458D211D692E0000B761 /* LYAnimalHouseProxy.m */,
 				6A23455E211D209C0000B761 /* Main.storyboard */,
 				6A234561211D209C0000B761 /* Assets.xcassets */,
 				6A234563211D209C0000B761 /* LaunchScreen.storyboard */,
@@ -103,12 +130,23 @@
 			path = LYProtocolProxyTests;
 			sourceTree = "<group>";
 		};
+		6A23457C211D20A40000B761 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6A23457D211D21240000B761 /* LYDispatchProxy.h */,
+				6A23457E211D21240000B761 /* LYDispatchProxy.m */,
+				6A234595211D894A0000B761 /* LYWeakObject.h */,
+				6A234596211D894A0000B761 /* LYWeakObject.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A234554211D209C0000B761 /* LYProtocolProxy */ = {
+		6A234554211D209C0000B761 /* LYDispatchProxy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A234576211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYProtocolProxy" */;
+			buildConfigurationList = 6A234576211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYDispatchProxy" */;
 			buildPhases = (
 				6A234551211D209C0000B761 /* Sources */,
 				6A234552211D209C0000B761 /* Frameworks */,
@@ -118,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = LYProtocolProxy;
+			name = LYDispatchProxy;
 			productName = LYProtocolProxy;
-			productReference = 6A234555211D209C0000B761 /* LYProtocolProxy.app */;
+			productReference = 6A234555211D209C0000B761 /* LYDispatchProxy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6A23456C211D209C0000B761 /* LYProtocolProxyTests */ = {
+		6A23456C211D209C0000B761 /* LYDispatchProxyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A234579211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYProtocolProxyTests" */;
+			buildConfigurationList = 6A234579211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYDispatchProxyTests" */;
 			buildPhases = (
 				6A234569211D209C0000B761 /* Sources */,
 				6A23456A211D209C0000B761 /* Frameworks */,
@@ -136,9 +174,9 @@
 			dependencies = (
 				6A23456F211D209C0000B761 /* PBXTargetDependency */,
 			);
-			name = LYProtocolProxyTests;
+			name = LYDispatchProxyTests;
 			productName = LYProtocolProxyTests;
-			productReference = 6A23456D211D209C0000B761 /* LYProtocolProxyTests.xctest */;
+			productReference = 6A23456D211D209C0000B761 /* LYDispatchProxyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6A234550211D209C0000B761 /* Build configuration list for PBXProject "LYProtocolProxy" */;
+			buildConfigurationList = 6A234550211D209C0000B761 /* Build configuration list for PBXProject "LYDispatchProxy" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,8 +212,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A234554211D209C0000B761 /* LYProtocolProxy */,
-				6A23456C211D209C0000B761 /* LYProtocolProxyTests */,
+				6A234554211D209C0000B761 /* LYDispatchProxy */,
+				6A23456C211D209C0000B761 /* LYDispatchProxyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,8 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A234588211D5D920000B761 /* LYAnimal.m in Sources */,
 				6A23455D211D209C0000B761 /* ViewController.m in Sources */,
+				6A23457F211D21240000B761 /* LYDispatchProxy.m in Sources */,
+				6A234597211D894A0000B761 /* LYWeakObject.m in Sources */,
+				6A234585211D5D710000B761 /* LYPerson.m in Sources */,
+				6A23458E211D692E0000B761 /* LYAnimalHouseProxy.m in Sources */,
 				6A234568211D209C0000B761 /* main.m in Sources */,
+				6A23458B211D66D60000B761 /* LYTableDelegate.m in Sources */,
 				6A23455A211D209C0000B761 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		6A23456F211D209C0000B761 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6A234554211D209C0000B761 /* LYProtocolProxy */;
+			target = 6A234554211D209C0000B761 /* LYDispatchProxy */;
 			targetProxy = 6A23456E211D209C0000B761 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -297,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -392,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Liya.LYProtocolProxyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYProtocolProxy.app/LYProtocolProxy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDispatchProxy.app/LYDispatchProxy";
 			};
 			name = Debug;
 		};
@@ -407,14 +451,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Liya.LYProtocolProxyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYProtocolProxy.app/LYProtocolProxy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDispatchProxy.app/LYDispatchProxy";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A234550211D209C0000B761 /* Build configuration list for PBXProject "LYProtocolProxy" */ = {
+		6A234550211D209C0000B761 /* Build configuration list for PBXProject "LYDispatchProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A234574211D209C0000B761 /* Debug */,
@@ -423,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A234576211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYProtocolProxy" */ = {
+		6A234576211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYDispatchProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A234577211D209C0000B761 /* Debug */,
@@ -432,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A234579211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYProtocolProxyTests" */ = {
+		6A234579211D209C0000B761 /* Build configuration list for PBXNativeTarget "LYDispatchProxyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A23457A211D209C0000B761 /* Debug */,
